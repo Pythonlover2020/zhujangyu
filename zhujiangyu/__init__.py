@@ -1,3 +1,7 @@
+from __future__ import absolute_import
+
+__version__ = '0.1.3'
+
 code = ['utf-8','gbk','cp936','gb2312']
 def decode(text):
     '''
