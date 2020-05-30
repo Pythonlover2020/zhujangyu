@@ -12,7 +12,7 @@ URL = 'https://github.com/Pythonlover2020/zhujangyu'
 EMAIL = 'zhuhaibo8@163.com'
 AUTHOR = '朱江宇'
 REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.1.2'
+VERSION = '0.1.5'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
@@ -97,7 +97,7 @@ setup(
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
     url=URL,
-    packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
+    packages=['zhujiangyu'],
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],
 
