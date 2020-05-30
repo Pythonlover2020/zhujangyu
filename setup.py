@@ -8,7 +8,7 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'zhujiangyu'
 DESCRIPTION = '一个好玩的库.'
-URL = 'https://github.com/Pythonlover2020/zjy'
+URL = 'https://github.com/Pythonlover2020/zhujangyu'
 EMAIL = 'zhuhaibo8@163.com'
 AUTHOR = '朱江宇'
 REQUIRES_PYTHON = '>=3.5.0'
