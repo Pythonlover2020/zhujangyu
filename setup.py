@@ -12,7 +12,7 @@ URL = 'https://github.com/Pythonlover2020/zhujangyu'
 EMAIL = 'zhuhaibo8@163.com'
 AUTHOR = '朱江宇'
 REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
