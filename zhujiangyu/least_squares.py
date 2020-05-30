@@ -42,9 +42,23 @@ class Least_squares:
         plt.xlabel('X')
         plt.show()
 
-    def function(self):
+    def get_function(self):
         '''
         :return: 返回拟合函数
         '''
-        self.x = Symbol('x')
-        return self.A * self.x + self.B
+        self.__variable = Symbol('x')
+        return self.A * self.__variable + self.B
+
+    def get_mean_square_error(self):
+        '''
+        :return: 返回均方误差
+        '''
+        self.__M = 0
+        for i in range(len(self.y)):
+            self.__M += ((self.y[i] - (self.A * self.x[i] + self.B)) ** 2)
+        return self.__M ** 0.5
+
+if __name__ == '__main__':
+    l = Least_squares([0,1,2,3,4,5,6,7],[27.0,26.8,26.5,26.3,26.1,25.7,25.3,24.8])
+    print(f'{l.function()}\n{l.mean_square_error()}')
+    l.show()
